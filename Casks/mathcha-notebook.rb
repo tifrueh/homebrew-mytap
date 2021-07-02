@@ -7,5 +7,5 @@ cask "mathcha-notebook" do
   desc "An easy editor for math"
   homepage "https://www.mathcha.io/"
 
-  app "Mathcha Notebook"
+  app "Mathcha Notebook.app"
 end
