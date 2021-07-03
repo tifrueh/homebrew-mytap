@@ -1,4 +1,4 @@
-ask "elmedia-player" do
+cask "elmedia-player" do
   version "7.17,2353"
   sha256 :no_check
 
