@@ -12,7 +12,8 @@ ask "elmedia-player" do
     strategy :sparkle
   end
 
-  app "Elmedia Player.app"
+  app "Elmedia Player.app",
+    target: "Elmedia Player 7.app"
 
   zap trash: [
     "~/Library/Caches/com.Eltima.ElmediaPlayer",
