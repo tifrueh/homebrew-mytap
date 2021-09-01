@@ -2,14 +2,14 @@ cask "wondershare-pdfelement" do
   version :latest
   sha256 :no_check
 
-  url "https://download.wondershare.com/mac-pdfelement_full5237.dmg"
-  name "wondershare-pdfelement"
-  desc "Wondershare's PDF editor"
+  url "https://download.wondershare.com/cbs_down/mac-pdfelement_full5237.zip"
+  name "Wondershare PDFelement for Mac"
+  desc "Create, edit, convert and sign PDF documents"
   homepage "https://pdf.wondershare.com"
 
-  installer script: {
-    executable: "Wondershare PDFelement Installer.app/Contents/MacOS/Product Installer"
-  }
+  depends_on macos: ">= :sierra"
+
+  app "PDFelement.app"
 
   uninstall quit: [
     "com.wondershare.PDFelement",
@@ -25,4 +25,5 @@ cask "wondershare-pdfelement" do
       "~/Library/Caches/com.plausiblelabs.crashreporter.data/com.wondershare.PDFelement",
       "/Applications/PDFelement.app",
     ]
+
 end
