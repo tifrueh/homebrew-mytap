@@ -1,5 +1,5 @@
 cask "wondershare-pdfelement" do
-  version :latest
+  version "8.5.0,3594"
   sha256 :no_check
 
   url "https://download.wondershare.com/cbs_down/mac-pdfelement_full5237.zip"
