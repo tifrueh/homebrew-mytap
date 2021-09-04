@@ -8,4 +8,12 @@ cask "mathcha-notebook" do
   homepage "https://www.mathcha.io/"
 
   app "Mathcha Notebook.app"
+
+  zap trash: [
+    "~/Library/Application Support/Mathcha Notebook",
+    "~/Library/Logs/Mathcha Notebook",
+    "~/Library/Logs/mathcha-notebook-service",
+    "~/Library/Preferences/mathcha.com.mathnotebook.plist",
+    "~/Library/Saved Application State/mathcha.com.mathnotebook.savedState",
+  ]
 end
