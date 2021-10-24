@@ -8,4 +8,9 @@ cask "mlaatkst" do
   homepage "https://github.com/Timo-Frueh/mlaatkst"
 
   app "MLAatKST.app"
+
+  zap trash: [
+    "~/Library/Preferences/com.tifrueh.mlaatkst.plist",
+    "~/Library/Saved Application State/com.tifrueh.mlaatkst.savedState",
+  ]
 end
