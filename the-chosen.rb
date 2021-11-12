@@ -6,7 +6,7 @@ class TheChosen < Formula
   sha256 "2eebc094ea0a5efe7e0c8ee551c20cce9c0bc534c41f0d4c9da9c67cc3bb3c82"
   license "GPL-3.0"
 
-  depends_on "python@3.9"
+  depends_on "python@3.10"
 
   resource "clear_screen" do
     url "https://files.pythonhosted.org/packages/16/5d/79153f4acb0813b53eb7a9aaf84612118bfea1b7772f2fbc57cb89074296/clear_screen-0.1.14.tar.gz"
