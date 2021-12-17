@@ -3,7 +3,7 @@ class TheChosen < Formula
   desc "A short text-adventure"
   homepage "https://github.com/Timo-Frueh/the-chosen"
   url "https://github.com/Timo-Frueh/the-chosen/archive/refs/tags/v1.1.0-alpha.tar.gz"
-  sha256 "c62f8b5af21dd4d1d86c7d586191ebab1908c3abb850e40ba7b3ebb4eac085b1"
+  sha256 "dcdc11a4d879a15cc89a2e2e37ffdfe50a21de79ea60c17014f11a587141c7ee"
   license "GPL-3.0"
 
   depends_on "python@3.10"
