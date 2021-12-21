@@ -2,8 +2,8 @@ class TheChosen < Formula
   include Language::Python::Virtualenv
   desc "A short text-adventure"
   homepage "https://github.com/Timo-Frueh/the-chosen"
-  url "https://github.com/Timo-Frueh/the-chosen/archive/refs/tags/v1.1.0-alpha.tar.gz"
-  sha256 "dcdc11a4d879a15cc89a2e2e37ffdfe50a21de79ea60c17014f11a587141c7ee"
+  url "https://github.com/Timo-Frueh/the-chosen/archive/refs/tags/v1.1.0-beta.tar.gz"
+  sha256 "82b13fe6241412c96dfac8760e6e31277c6bdd0b2b77ef3f5819be8140337c73"
   license "GPL-3.0"
 
   depends_on "python@3.10"
