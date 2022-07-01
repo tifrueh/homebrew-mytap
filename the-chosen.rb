@@ -4,7 +4,7 @@ class TheChosen < Formula
   homepage "https://github.com/tifrueh/the-chosen"
   url "https://github.com/tifrueh/the-chosen/archive/refs/tags/v1.1.1.tar.gz"
   sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  license "GPL-3.0"
+  license "GPL-3.0-or-later"
 
   depends_on "python@3.10"
 
