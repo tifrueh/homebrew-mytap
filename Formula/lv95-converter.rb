@@ -5,7 +5,7 @@ class Lv95Converter < Formula
   sha256 "96924ad3f1c8a48a9afacf4ffad97a7b8bd06b3c740d41f6e3e556254df5f3bc"
   license "GPL-3.0-or-later"
 
-  depends_on "cli11" :build
+  depends_on "cli11" => :build
 
   def install
     system "make"
