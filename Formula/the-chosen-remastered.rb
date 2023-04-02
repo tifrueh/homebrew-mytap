@@ -7,6 +7,7 @@ class TheChosenRemastered < Formula
 
   depends_on "meson" => :build
   depends_on "ninja" => :build
+  depends_on "ncurses"
 
   def install
     system "meson", "setup", "build", *std_meson_args
