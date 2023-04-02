@@ -8,10 +8,11 @@ class TheChosenRemastered < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkg-config" => :build
-  depends_on "ncurses"
+
+  uses_from_macos "ncurses"
 
   def install
-    system "meson", "setup", "--buildtype=plain", "--prefix=#{prefix}", "build" 
+    system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
