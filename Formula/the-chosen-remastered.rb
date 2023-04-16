@@ -2,7 +2,7 @@ class TheChosenRemastered < Formula
   desc "Short ZORK-like text adventure"
   homepage "https://github.com/tifrueh/the-chosen-remastered"
   url "https://github.com/tifrueh/the-chosen-remastered/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "bad4f17f06f21b363678b33f25c15af7a940b80bead8155909b5b8ef0996c46d"
+  sha256 "088ccedf570f6a4b3e70e795255cde6bb448ffcc8d9607d8039685172f9f3735"
   license "GPL-3.0-or-later"
 
   depends_on "meson" => :build
