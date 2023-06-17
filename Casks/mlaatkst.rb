@@ -1,11 +1,11 @@
 cask "mlaatkst" do
-  version "1.2.4"
-  sha256 "b2ff79904d81b5717c3ba895ff2270e1879767dd055087c6fb3ac09a5141c12f"
+  version "2.0.0"
+  sha256 "4b155e506d684100b3fbf0388b91e603198ef811cc10a629a2364a06b46fecaf"
 
   url "https://github.com/tifrueh/mlaatkst/releases/download/v#{version}/MLAatKST-macOS-universal-v#{version}.pkg"
   name "mlaatkst"
-  desc "Citation helper for KST students"
-  homepage "https://github.com/Timo-Frueh/mlaatkst"
+  desc "Footnote helper for KST students"
+  homepage "https://github.com/tifrueh/mlaatkst"
 
   pkg "MLAatKST-macOS-universal-v#{version}.pkg"
 
