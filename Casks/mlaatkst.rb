@@ -1,6 +1,6 @@
 cask "mlaatkst" do
-  version "2.0.0"
-  sha256 "66395a829ba63c67ca522f17a5da2dd3c88a54622db76bccabeaa3dcbb8f3c5e"
+  version "2.1.0"
+  sha256 "44b38e1ea24e069b1bfa659eb51282206c88fd1fd914e0a0c1dae177193c3fd8"
 
   url "https://github.com/tifrueh/mlaatkst/releases/download/v#{version}/MLAatKST-macOS-universal-v#{version}.pkg"
   name "mlaatkst"
