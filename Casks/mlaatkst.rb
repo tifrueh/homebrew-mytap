@@ -7,6 +7,8 @@ cask "mlaatkst" do
   desc "Footnote helper for KST students"
   homepage "https://github.com/tifrueh/mlaatkst"
 
+  depends_on macos: ">= :ventura"
+
   pkg "MLAatKST-macOS-universal-v#{version}.pkg"
 
   uninstall pkgutil: "com.tifrueh.mlaatkst"
