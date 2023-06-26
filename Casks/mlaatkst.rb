@@ -1,13 +1,13 @@
 cask "mlaatkst" do
-  version "2.1.0"
-  sha256 "44b38e1ea24e069b1bfa659eb51282206c88fd1fd914e0a0c1dae177193c3fd8"
+  version "2.1.1"
+  sha256 "82e9481db347f3ab3346202d4425f45cfe22ca2479535d8129372be220efa177"
 
   url "https://github.com/tifrueh/mlaatkst/releases/download/v#{version}/MLAatKST-macOS-universal-v#{version}.pkg"
   name "mlaatkst"
   desc "Footnote helper for KST students"
   homepage "https://github.com/tifrueh/mlaatkst"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :monterey"
 
   pkg "MLAatKST-macOS-universal-v#{version}.pkg"
 
