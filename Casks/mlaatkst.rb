@@ -7,7 +7,7 @@ cask "mlaatkst" do
   desc "Footnote helper for KST students"
   homepage "https://github.com/tifrueh/mlaatkst"
 
-  depends_on macos: ">=11"
+  depends_on macos: ">= :big_sur"
 
   pkg "MLAatKST-macOS-universal-v#{version}.pkg"
 
