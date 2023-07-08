@@ -14,7 +14,11 @@ cask "mlaatkst" do
   uninstall pkgutil: "com.tifrueh.mlaatkst"
 
   zap trash: [
-    "~/Library/Preferences/com.tifrueh.mlaatkst.plist",
-    "~/Library/Saved Application State/com.tifrueh.mlaatkst.savedState",
+  "~/Library/Application Scripts/com.tifrueh.MLAatKST",
+  "~/Library/Containers/com.tifrueh.MLAatKST",
+  "~/Library/Preferences/MLAatKST.plist",
+  "~/Library/Preferences/com.tifrueh.mlaatkst.plist",
+  "~/Library/Saved Application State/com.tifrueh.mlaatkst.savedState",
   ]
+
 end
