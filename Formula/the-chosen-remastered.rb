@@ -1,8 +1,8 @@
 class TheChosenRemastered < Formula
   desc "Short ZORK-like text adventure"
   homepage "https://github.com/tifrueh/the-chosen-remastered"
-  url "https://github.com/tifrueh/the-chosen-remastered/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "088ccedf570f6a4b3e70e795255cde6bb448ffcc8d9607d8039685172f9f3735"
+  url "https://github.com/tifrueh/the-chosen-remastered/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "8d095929a7b0b489e1741b581750384e0599687a7170b8c069bfef0ade8223ef"
   license "GPL-3.0-or-later"
 
   depends_on "meson" => :build
@@ -18,6 +18,6 @@ class TheChosenRemastered < Formula
   end
 
   test do
-    assert_equal "1.0.0", shell_output("#{bin}/the-chosen-remastered -v")
+    assert_equal "1.0.1", shell_output("#{bin}/the-chosen-remastered -v")
   end
 end
