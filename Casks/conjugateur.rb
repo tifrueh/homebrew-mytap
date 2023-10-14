@@ -9,7 +9,7 @@ cask "conjugateur" do
 
   depends_on macos: ">= :sonoma"
 
-  pkg "Conjugateur-Sonoma-macOS-universal-v#{version}.pkg"
+  pkg "Conjugateur-macOS-Sonoma-universal-v#{version}.pkg"
 
   uninstall pkgutil: "ch.tifrueh.conjugateur"
 
