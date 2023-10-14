@@ -7,7 +7,7 @@ cask "conjugateur" do
   desc "French verb conjugation trainer"
   homepage "https://github.com/tifrueh/conjugateur"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: ">= :sonoma"
 
   pkg "Conjugateur-macOS-universal-v#{version}.pkg"
 
