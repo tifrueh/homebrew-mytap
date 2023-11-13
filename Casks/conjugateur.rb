@@ -1,19 +1,11 @@
 cask "conjugateur" do
-  version "1.0.0-beta"
+  version "1.0.0-beta-3"
   
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :sonoma"
 
-  on_sonoma do
-    sha256 "399fdd6681bf0919724abc7c57004968b082036515f90d4a49cae70d3dcfcf09"
-    url "https://github.com/tifrueh/conjugateur/releases/download/v#{version}/Conjugateur-macOS-Sonoma-universal-v#{version}.pkg"
-    pkg "Conjugateur-macOS-Sonoma-universal-v#{version}.pkg"
-  end
-
-  on_ventura do
-    sha256 "9f0d233289d71d29a1225674baaaff5dce06e708d69f99d8128aba4be937ac60"
-    url "https://github.com/tifrueh/conjugateur/releases/download/v#{version}/Conjugateur-macOS-Ventura-universal-v#{version}.pkg"
-    pkg "Conjugateur-macOS-Ventura-universal-v#{version}.pkg"
-  end
+  sha256 "fe6dec5f7085efb6233cf66618d832ebed1ab939fac007fc57e8ef4149c14d20"
+  url "https://github.com/tifrueh/conjugateur/releases/download/v#{version}/Conjugateur-macOS-14-universal-v#{version}.pkg"
+  pkg "Conjugateur-macOS-14-universal-v#{version}.pkg"
 
   name "conjugateur"
   desc "French verb conjugation trainer"
