@@ -1,29 +1,15 @@
 cask "conjugateur" do
-  version "1.0.0-beta-3"
+  version "1.0.0-beta-4"
+  sha256 "5ff3af44b0f6ac84df5bb57c3d1b7b11957e94820787f89dbb4f4a780afa4499"
 
-  on_ventura do
-    sha256 "2616fe6067a45bfb2182de85a4b5299de890e129866c06aa1f3d5fd5889b6a5f"
-
-    url "https://github.com/tifrueh/conjugateur/releases/download/v#{version}/Conjugateur-macOS-13-universal-v#{version}.pkg"
-
-    pkg "Conjugateur-macOS-13-universal-v#{version}.pkg"
-  end
-  on_sonoma do
-    sha256 "fe6dec5f7085efb6233cf66618d832ebed1ab939fac007fc57e8ef4149c14d20"
-
-    url "https://github.com/tifrueh/conjugateur/releases/download/v#{version}/Conjugateur-macOS-14-universal-v#{version}.pkg"
-
-    pkg "Conjugateur-macOS-14-universal-v#{version}.pkg"
-  end
-
+  url "https://github.com/tifrueh/conjugateur/releases/download/v#{version}/Conjugateur-macOS-universal-v#{version}.pkg"
   name "conjugateur"
   desc "French verb conjugation trainer"
   homepage "https://github.com/tifrueh/conjugateur"
 
-  depends_on macos: [
-    :ventura,
-    :sonoma,
-  ]
+  depends_on macos: ">= :monterey"
+
+  pkg "Conjugateur-macOS-universal-v#{version}.pkg"
 
   uninstall pkgutil: "ch.tifrueh.conjugateur"
 
