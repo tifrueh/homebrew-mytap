@@ -6,6 +6,7 @@ class TheChosenRemastered < Formula
   license "GPL-3.0-or-later"
 
   depends_on "meson" => :build
+  depends_on "ninja" => :build
   depends_on "pkg-config" => :build
 
   uses_from_macos "ncurses"
