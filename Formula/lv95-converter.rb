@@ -1,7 +1,7 @@
 class Lv95Converter < Formula
   desc "Convert LV95 to WGS84 and vice versa"
   homepage "https://github.com/tifrueh/lv95-converter"
-  url "https://github.com/tifrueh/lv95-converter/releases/download/v1.1.2/lv95-converter-1.1.0.tar.xz"
+  url "https://github.com/tifrueh/lv95-converter/releases/download/v1.1.2/lv95-converter-1.1.2.tar.xz"
   sha256 "3b30e3201be2305ca378871ae148a6b457dbb73db8ebf24d6ee7cf058293a9b6"
   license "GPL-3.0-or-later"
 
