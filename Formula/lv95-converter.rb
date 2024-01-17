@@ -1,8 +1,8 @@
 class Lv95Converter < Formula
   desc "Convert LV95 to WGS84 and vice versa"
   homepage "https://github.com/tifrueh/lv95-converter"
-  url "https://github.com/tifrueh/lv95-converter/releases/download/v1.1.0/lv95-converter-v1.1.0.tar.gz"
-  sha256 "96f4782b84fb6bb26d1dceeb813dc321300eb3fe28b6aa49b7df75a67a74a5c6"
+  url "https://github.com/tifrueh/lv95-converter/releases/download/v1.1.2/lv95-converter-1.1.0.tar.xz"
+  sha256 "3b30e3201be2305ca378871ae148a6b457dbb73db8ebf24d6ee7cf058293a9b6"
   license "GPL-3.0-or-later"
 
   depends_on "meson" => :build
@@ -20,6 +20,6 @@ class Lv95Converter < Formula
     system("lv95-converter")
     assert_equal "Coordinates in WGS84: N 46.9511, E 7.43864",
 shell_output("lv95-converter lv95 --east 2600000 --north 1200000").strip
-    assert_equal "v1.1.0", shell_output("lv95-converter --version")
+    assert_equal "v1.1.2", shell_output("lv95-converter --version")
   end
 end
