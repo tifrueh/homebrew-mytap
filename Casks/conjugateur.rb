@@ -1,6 +1,6 @@
 cask "conjugateur" do
-  version "1.0.0"
-  sha256 "e936403a53e4aaab8881dd687aebaef6688e0307f0ccbb896ce7c7c1a03874aa"
+  version "1.0.1"
+  sha256 "bddc196f2dd4b0335480db90f3cf775810649816cce585dd99d29fbd8a8c88d7"
 
   url "https://github.com/tifrueh/conjugateur/releases/download/v#{version}/Conjugateur-macOS-universal-v#{version}.pkg"
   name "conjugateur"
@@ -14,6 +14,8 @@ cask "conjugateur" do
   uninstall pkgutil: "ch.tifrueh.conjugateur"
 
   zap trash: [
+    "~/Library/Caches/ch.tifrueh.conjugateur",
+    "~/Library/HTTPStorages/ch.tifrueh.conjugateur",
     "~/Library/Preferences/ch.tifrueh.conjugateur.plist",
     "~/Library/Preferences/conjugateur.plist",
     "~/Library/Saved Application State/ch.tifrueh.conjugateur.savedState",
