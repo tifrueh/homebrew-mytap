@@ -16,6 +16,6 @@ class Jd < Formula
 
   test do
     shell_output(bin/"jd", 1)
-    shell_output(bin/"jd" --version)
+    shell_output(bin/"jd --version")
   end
 end
