@@ -3,8 +3,8 @@ class Ankidoc < Formula
 
   desc "Convert asciidoc notes to anki notes"
   homepage "https://github.com/tifrueh/ankidoc/"
-  url "https://github.com/tifrueh/ankidoc/archive/refs/tags/v0.3.0-rc2.tar.gz"
-  sha256 "6685d326164a6af4e60ed87be5198e72c4f71d4291567be6b255ca84af8041d0"
+  url "https://github.com/tifrueh/ankidoc/archive/refs/tags/v0.3.0-rc3.tar.gz"
+  sha256 "9b91eb7b73664b16506db0525b738eea9520f15bdddfc58b976bc344a5d0805d"
   license "GPL-3.0-or-later"
 
   depends_on "python"
