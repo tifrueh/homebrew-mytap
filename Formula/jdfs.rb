@@ -1,9 +1,9 @@
 class Jdfs < Formula
   desc "Navigation and manipulation tool for johnny.decimal file systems"
   homepage "https://github.com/tifrueh/jdfs"
-  url "https://github.com/tifrueh/jdfs/archive/refs/tags/v0.1.0.tar.gz"
+  url "https://github.com/tifrueh/jdfs/archive/refs/tags/v0.1.1.tar.gz"
   head "https://github.com/tifrueh/jdfs.git", branch: "development"
-  sha256 "e0ebb978e6dbdb7b36c750a079e275c071dbfa49457b851304798330ca7b8741"
+  sha256 "6a3cb3462685c6abf0a1bfae20a1f19f28e38e088a1187473b68bed1b5b36795"
   license "GPL-3.0-or-later"
 
   depends_on "meson" => :build
