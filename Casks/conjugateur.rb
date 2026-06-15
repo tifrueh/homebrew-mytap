@@ -7,7 +7,7 @@ cask "conjugateur" do
   desc "French verb conjugation trainer"
   homepage "https://github.com/tifrueh/conjugateur"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   pkg "Conjugateur-macOS-universal-v#{version}.pkg"
 
