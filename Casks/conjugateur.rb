@@ -1,6 +1,6 @@
 cask "conjugateur" do
-  version "1.0.4"
-  sha256 "8488246f051f714dafb643b3980c5204dd3d1eb84c6dff20a96c8b944491b6c3"
+  version "1.0.5"
+  sha256 "8081245eb9a86c8ccd10c88418869f91d879b53a971d3471dec20ea94ce42c4f"
 
   url "https://github.com/tifrueh/conjugateur/releases/download/v#{version}/Conjugateur-macOS-universal-v#{version}.pkg"
   name "conjugateur"
